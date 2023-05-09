@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&display=swap');
+
+
+
+/* CSS pour le titre */
+#main-title {
+    font-family: popins,sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+/* CSS pour les images */
+.card-img-top {
+    height: 15rem;
+    object-fit: cover;
+}
+
+/* CSS pour les boutons */
+.btn-primary {
+    background-color: #228B22;
+    border-color: #228B22;
+}
+
+/* CSS pour les liens */
+a {
+    color: #228B22;
+}
+
+a:hover {
+    color: #5cb85c;
+}
+
+/* CSS pour le pied de page */
+footer {
+    margin-top: 3rem;
+    color: white;
+    background-color: #343a40;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #5cb85c;
+}
+
+footer hr {
+    border-color: #8c8c8c;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* CSS pour le menu */
+.navbar {
+    background-color: #228B22;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #5cb85c;
+}
+
+/* CSS pour les titres de section */
+section h2 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* CSS pour les paragraphes */
+section p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+/* CSS pour les cartes */
+.card {
+    margin-bottom: 2rem;
+}
+
+.card-header {
+    font-weight: bold;
+    background-color: #f8f9fa;
+}
+
+.card-body {
+    background-color: #fff;
+}

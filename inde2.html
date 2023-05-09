@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main dans la patte - Notre action</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          integrity="sha384-n7PfSJzmY2iEwSwRyP8SO7pNBY15tvkxbzv+PhMMZjoEhZCvbplHrkj84vCfWm2x"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Barre de navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Main dans la patte</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page2.html">Notre action</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Adopter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nous soutenir</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nous contacter</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Contenu de la page -->
+<div class="container my-5">
+    <h1 class="text-center mb-5">Notre action</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <p>Nous sommes une association de défense des animaux qui lutte contre la maltraitance et l'abandon. Notre action
+                consiste à :</p>
+            <ul>
+                <li>Recueillir des animaux maltraités ou abandonnés</li>
+                <li>Les soigner et les nourrir</li>
+                <li>Les faire adopter par des familles aimantes</li>
+                <li>Sensibiliser le grand public à la cause animale</li>
+                <li>Lutter contre les abus et les mauvais traitements envers les animaux</li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <img src="./medeia/img/iSt.jpg" alt="Photo d'un chien et d'un chat" class="img-fluid">
+        </div>
+    </div>
+</div>
+
+<!-- Pied de page -->
+<footer class="bg-dark text-light py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Liens utiles</h5>
+                <ul>
+                    <li><a href="#">Adopter un animal</a></li>
+                    <li><a href="#">Nous soutenir</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+
+            <!-- Formulaire de contact-->
+            <div>
+                <h5>Pour nous contacter, veuillez remplir le formulaire ci-dessous :</h5>
+                <form>
+                    <div class="form-group">
+                        <label for="nom">Nom</label>
+                        <input type="text" class="form-control" id="nom" name="nom">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+        </div>
+
+        <ul>
+                    <li>Adresse : 123 rue des Animaux, 75000 Paris</li>
+                    <li>Téléphone : 01 23 45 67 89</li>
+                    <li>Email : contact@maindanslapatte.fr</li>
+                </ul>
+            </div>
+    </div>
+        <hr>
+        <p class="text-center">&copy; 2023 Main dans la patte - Tous droits réservés</p>
+</footer>
+</body>
+
+</html>
